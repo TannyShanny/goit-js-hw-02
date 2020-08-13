@@ -1,17 +1,17 @@
-// "use strict";
+"use strict";
 
-// let input;
-// const numbers = [];
-// let total = 0;
+let input;
+const numbers = [];
+let total = 0;
 
-// while (true) {
+while (true) {
 
-//     let input = +prompt("Введите число", '');
-//     numbers.push(input);
-//     console.log(numbers);
+    let input = +prompt("Введите число", '');
+    numbers.push(input);
+    console.log(numbers);
 
-//     if (!input) break;
-//     total += input;
-//   }
+    if (!input) break;
+    total += input;
+  }
 
-// alert('Общая сумма чисел равна ' + total);
+alert('Общая сумма чисел равна ' + total);
